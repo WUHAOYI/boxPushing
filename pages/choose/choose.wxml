@@ -1,0 +1,8 @@
+<view class="container">
+<view class="text">选择关卡</view>
+<view class="btnChoose" wx:for="{{choose}}" wx:for-key="item" wx:for-index="index" >
+<button style="width: 90rpx;height: 90rpx;" bindtap="goto" data-level='{{index+1}}'>{{item}}</button>
+<text decode="{{true}}"> &nbsp; &nbsp; </text>
+</view>
+</view>
+

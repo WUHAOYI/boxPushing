@@ -1,0 +1,18 @@
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 150rpx;
+  font-size: 60rpx;
+  font-family: LiSu;
+  font-weight: 900;
+  color:white
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200rpx;
+  height: 100rpx;
+  background:green;
+}

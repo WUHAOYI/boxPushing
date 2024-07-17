@@ -1,0 +1,16 @@
+<!--循环渲染呈现历史记录-->
+<view class="text">历史记录</view>
+<view style="display: flex;justify-content: center;">(只根据移动步数的多少显示五次记录)</view>
+<text>\n</text><text>\n</text>
+<view wx:for="{{history}}" wx:for-item="item" wx:for-index="idx">
+  <view class="level">
+    <view>第{{idx+1}}关的历史记录如下：</view>
+    <text>\n</text>
+    <view wx:for="{{item}}" wx:for-item="item1" class="content">
+      <view>时间：{{item1.date}}</view>
+      <view>步数：{{item1.step}}</view>
+      <text>\n</text>
+    </view>
+  </view>
+  <text>\n</text>
+</view>

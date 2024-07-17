@@ -1,0 +1,13 @@
+<!--游戏主页-->
+<view>
+<image src="/images/background.jpg" class="bg"></image>
+<view class="text">欢迎来到推箱子小游戏</view>
+<view style="height: 250rpx;"></view>
+<button class="button" bindtap="begin">开始游戏</button>
+<text>\n</text>
+<button class="button" bindtap="history">查看历史记录</button>
+<text>\n</text>
+<button class="button" bindtap="choose">选择关卡</button>
+<text>\n</text>
+<button class="button" bindtap="help">帮助</button>
+</view>

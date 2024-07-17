@@ -1,0 +1,18 @@
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 60rpx;
+  font-size: 60rpx;
+  font-weight: 700;
+  color:black
+}
+.btnChoose {
+  display: flex;
+  flex-direction: row;
+}
+.btnChoose button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

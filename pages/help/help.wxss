@@ -1,0 +1,15 @@
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 100rpx;
+  font-size: 60rpx;
+  font-weight: 700;
+  color:black
+}
+.rule{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 60rpx;
+}

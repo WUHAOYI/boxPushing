@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/homepage/homepage",
+    "pages/game/game",
+    "pages/help/help",
+    "pages/history/history",
+    "pages/choose/choose"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "推箱子小游戏",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

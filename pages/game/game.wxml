@@ -1,0 +1,30 @@
+<view class='container'>
+  <!-- 关卡提示 -->
+  <view class='title'>第{{level}}关</view>
+  <!-- 游戏地图 -->
+  <canvas canvas-id="myCanvas"></canvas>
+  <!-- 方向键 -->
+  <view class='btnBox'>
+    <button bindtap='up' style="width: 60rpx;height: 60rpx;"><text style="display: flex;flex-direction: row;justify-content: center;">↑</text></button>
+    <text>\n</text>
+    <view>
+      <button bindtap='left' style="width: 60rpx;height: 60rpx;"><text>←</text></button>
+      <text decode="{{true}}"> &nbsp; &nbsp; </text>
+      <button bindtap='down' style="width: 60rpx;height: 60rpx;"><text>↓</text></button>
+      <text decode="{{true}}"> &nbsp; &nbsp; </text>
+      <button bindtap='right' style="width: 60rpx;height: 60rpx;"><text>→</text></button>
+    </view>
+  </view>
+
+  <!-- 基本操作按钮 -->
+  <view class="manner">
+    <button bindtap='restartGame' style="width: 240rpx;height: 90rpx;">重新开始</button>
+    <text decode="{{true}}"> &nbsp; &nbsp; </text>
+    <button style="width: 240rpx;height: 90rpx;" bindtap="back">后退</button>
+    <text decode="{{true}}"> &nbsp; &nbsp; </text>
+    <button style="width: 240rpx;height: 90rpx;" bindtap="choose">选择关卡</button>
+    
+  </view>
+  <button style="width: 240rpx;height: 90rpx;" bindtap="helpMe">求助</button>
+  <view><text>最短步数为：{{shortestStep}}</text><text decode="{{true}}"> &nbsp; &nbsp; </text><text>共计移动{{step}}步</text></view>
+</view>

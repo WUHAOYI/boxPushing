@@ -1,0 +1,17 @@
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ padding-top: 60rpx;
+  font-size: 60rpx;
+  font-weight: 700;
+  color:black
+}
+.line{
+  width: 100%;
+  border: solid 1px black;
+}
+.level{
+  border: black solid 3px;
+  margin: 20rpx;
+}
